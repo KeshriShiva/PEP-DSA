@@ -1,0 +1,8 @@
+import java.util.Arrays;
+
+class Main {
+    public static void main(String[] args) {
+        int[] a = {5, 3, 9, 1, 6};
+        System.out.println(Arrays.stream(a).max().getAsInt());
+    }
+}
